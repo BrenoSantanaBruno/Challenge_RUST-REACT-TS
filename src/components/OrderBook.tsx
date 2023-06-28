@@ -12,7 +12,7 @@ export const OrderBook: React.FC = () => {
     const dispatch = useDispatch();
     const orders = useSelector((state: RootState) => state.orders);
 
-    useEffect(() => {
+    useEffect(()any => {
         dispatch(fetchOrders());
     }, [dispatch]);
 

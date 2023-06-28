@@ -1,14 +1,14 @@
 "use strict";
 exports.__esModule = true;
-var react_1 = require("react");
+var React = require("react");
 require("./App.css");
 function App() {
-    return (react_1["default"].createElement("div", { className: "App" },
-        react_1["default"].createElement("header", { className: "App-header" },
-            react_1["default"].createElement("p", null,
+    return (React.createElement("div", { className: "App" },
+        React.createElement("header", { className: "App-header" },
+            React.createElement("p", null,
                 "Edit ",
-                react_1["default"].createElement("code", null, "src/App.tsx"),
+                React.createElement("code", null, "src/App.tsx"),
                 " and save to reload."),
-            react_1["default"].createElement("a", { className: "App-link", href: "https://reactjs.org", target: "_blank", rel: "noopener noreferrer" }, "Learn React"))));
+            React.createElement("a", { className: "App-link", href: "https://reactjs.org", target: "_blank", rel: "noopener noreferrer" }, "Learn React"))));
 }
 exports["default"] = App;
