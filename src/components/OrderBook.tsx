@@ -4,8 +4,9 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {addOrder, fetchOrders} from '../features/orders/orderSlice';
 // @ts-ignore
-import {RootState} from "./src/app/store";
+import {RootState} from "../../src/app/store";
 import {Order} from "../types/order";
+
 
 export const OrderBook: React.FC = () => {
     const dispatch = useDispatch();
