@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.addOrder = void 0;
 var toolkit_1 = require("@reduxjs/toolkit");
 exports.addOrder = (0, toolkit_1.createAsyncThunk)('orders/addOrder', function (order) { return __awaiter(void 0, void 0, void 0, function () {
